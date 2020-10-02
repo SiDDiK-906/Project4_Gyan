@@ -1,0 +1,1526 @@
+/*======================================
+			Common CSS Start
+======================================*/
+*{
+	margin:0; padding: 0;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+ul,ol{
+	list-style: none !important;
+	margin-bottom: 0 !important;
+}
+a{
+	text-decoration: none !important;
+}
+.flex{
+	display: flex;
+}
+p{
+	margin-bottom: 0 !important;
+}
+.button a{
+	display: inline-block;
+	color: #ffffff;
+	font-size: 20px;
+	background: #2d3e50;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	padding: 13px 22px;
+	border-radius: 5px;
+	margin-right: 20px;
+	transition: 0.4s;
+	text-transform: capitalize;
+}
+.button a:hover{
+	background: #fbaa33;
+}
+.title{
+	text-align: center;
+	margin-bottom: 70px;
+}
+.title h1{
+	font-size: 32px;
+	color: #2d3e50;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+.title p{
+	color: #666666;
+	font-size: 14px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	width: 46%;
+	margin: 0 auto;
+}
+/*======================================
+			Common CSS End
+======================================*/
+/*======================================
+			Hotline Section Start
+======================================*/
+.hotline{
+	background: #2d3e50;
+	padding: 10px 0;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+}
+.hotline .icon1{
+	margin: 0 30px;
+}
+.hotline .icon .fa-phone{
+	transform: rotateY(190deg);
+	font-size: 19px;
+	padding-top: 2px;
+}
+.hotline .icon a{
+	color: #ffffff;
+}
+.hotline .icon .fa-envelope{
+	padding-top: 4px;
+}
+.hotline .icon p{
+	margin-left: 5px;
+}
+.hotline .login{
+	margin-left: auto;
+}
+.hotline .login a{
+	color: #ffffff;
+	transition: 0.4s;
+}
+.hotline .login a:hover{
+	color: #fbaa33;
+}
+.hotline .form{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(34, 34, 34,0.8);
+	height: 100vh;
+	width: 100%;
+	z-index: 9999;
+	display: none;
+}
+.hotline .form .close{
+	color: #00FF00;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	position: absolute;
+	top: 28px;
+	right: 3%;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.hotline .form .close:hover{
+	transform: scale(1.3);
+	color: #ff0000;
+}
+.hotline .form .main{
+	background: transparent;
+	width: 50%;
+	margin: 5% auto;
+	height: 80%;
+	padding: 50px;
+	-webkit-box-shadow: inset 0px 0px 35px 8px rgba(0,255,255,0.66);
+	-moz-box-shadow: inset 0px 0px 35px 8px rgba(0,255,255,0.66);
+	box-shadow: inset 0px 0px 35px 8px rgba(0,255,255,0.66);
+}
+.hotline .login_form .main{
+	height: 55%;
+}
+.hotline .login_form input{
+	height: 18% !important;
+}
+.hotline .form input{
+	display: block;
+	margin: 0 auto;
+	outline: none;
+	border: none;
+	width: 400px;
+	margin-bottom: 30px;
+	padding-left: 10px !important;
+	padding: 8px 0;
+}
+.hotline .form button{
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px !important;
+	background: #000080;
+	color: #dddddd;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	border: none;
+	border-radius: 3px;
+	padding: 7px 20px;
+	transition: 0.4s;
+}
+.hotline .form button:hover{
+	-webkit-box-shadow: inset 0px 0px 35px 8px rgba(0,255,255,0.66);
+	-moz-box-shadow: inset 0px 0px 35px 8px rgba(0,255,255,0.66);
+	box-shadow: inset 0px 0px 35px 8px rgba(0,255,255,0.66);
+	color: #ffffff;
+}
+.hotline .form h2{
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	width: 140px;
+	margin-bottom: 40px !important;
+	margin: 0 auto;
+}
+/*======================================
+			Hotline Section End
+======================================*/
+/*======================================
+			Nav Bar Section Start
+======================================*/
+nav{
+	padding: 23px 0 35px 0;
+	background: #f8f9fa;
+}
+nav .logo{
+ width: 10%;
+ margin-top: 5px;
+}
+nav .menu{
+	width: 60%;
+	margin-left: 8%;
+	margin-top: 26px;
+}
+nav .menu > ul{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav ul li a{
+	display: inline-block;
+	margin-left: 35px;
+	color: #2d3e50;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	position: relative;
+	transition: 0.4s;
+}
+nav ul li a:hover{
+	color: #fbaa33;
+}
+/* Dropdown 1*/
+nav ul li{
+	position: relative;
+	text-align: center;
+	transition: 0.4s;
+}
+nav ul > li:hover > ol{
+	visibility: visible;
+	opacity: 1;
+}
+nav ul li ol{
+	background: red;
+	position: absolute;
+	top: 25px;
+	left: 19px;
+	z-index: 1;
+	width: 100%;
+	visibility: none;
+	opacity: 0;
+	transition: 0.4s;
+}
+nav ul li > ol li{
+	padding: 0px 10px;
+	position: relative;
+	transition: 0.4s;
+}
+nav ul li ol li a{
+	margin: 0 auto !important;
+}
+/* Dropdown 2*/
+nav ul li ol li ul{
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: 115px;
+	z-index: 1;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.4s;
+}
+nav ul li ol li:hover ul{
+	visibility: visible;
+	opacity: 1;
+}
+nav .btn{
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+	width: 20%;
+	justify-content: flex-end;
+	padding: 0 !important;
+	border: 0 !important;
+	border-radius: 0 !important;
+}
+nav .btn a{
+	display: inline-block;
+	color: #ffffff;
+	background: #2d3e50;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	padding: 10px 20px;
+	border-radius: 6px;
+	margin-top: 20px;
+	transition: .4s;
+}
+nav .btn a:hover{
+	background: #fbaa33;
+}
+/*======================================
+			Nav Bar Section End
+======================================*/
+/*======================================
+			Banner Section Start
+======================================*/
+.banner{
+	position: relative;
+	transition: 0.4s;
+}
+.banner .one{
+	background: url(../images/banner1.png) no-repeat left;
+	background-size: cover;
+}
+.banner .two{
+	background: url(../images/banner2.jpg) no-repeat left;
+	background-size: cover;
+}
+.banner .three{
+	background: url(../images/banner3.jpg) no-repeat left;
+	background-size: cover;
+}
+.banner .common .overlay{
+	background: rgba(45, 62, 80,0.5);
+	height: 100%;
+	width: 100%;
+	padding: 135px 0 200px 0;
+}
+.banner .common h2{
+	font-weight: 400;
+	font-size: 40px;
+	font-family: 'Arimo', sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-bottom: 0 !important;
+}
+.banner .common h1{
+	font-weight: 700;
+	font-size: 52px;
+	font-family: 'Arimo', sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.banner .common p{
+	font-weight: 400;
+	font-size: 14px;
+	font-family: 'Arimo', sans-serif;
+	color: #ffffff;
+	line-height: 20px;
+	width: 53%;
+	margin-bottom: 60px !important;
+}
+.banner .slick-arrow{
+	position: absolute;
+	top: 47%;
+	z-index: 1;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bolder;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #f1f1f1;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.banner .slick-arrow:hover{
+	background: #fbaa33;
+	border-color: #fbaa33;
+}
+.banner .prev{
+	left: 1%;
+}
+.banner .next{
+	right: 1%;
+}
+/*======================================
+		Banner Section End
+======================================*/
+/*======================================
+		Services Section Start
+======================================*/
+.services{
+	text-align: center;
+	transform: translateY(-50%);
+}
+.services .container{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.services .main{
+	justify-content: space-between;
+}
+.services .main .common{
+	width: 34%;
+	background: #f5f5f5;
+	border: 1px solid #dddddd;
+	border-right: 2px solid #dddddd;
+	transition: 0.4s;
+	padding: 30px 0;
+}
+.services .main .common:hover{
+	box-shadow: 0 7px 50px rgba(0, 0, 0, 0.15);
+}
+.services .main .common h2{
+	font-weight: 400;
+	font-size: 24px;
+	color: #444444;
+	font-family: 'Arimo', sans-serif;
+	text-transform: capitalize;
+	margin: 20px 0 5px 0 !important;
+}
+.services .main .common .text{
+	justify-content: center;
+	font-weight: 400;
+	font-size: 16px;
+	color: #999999;
+	font-family: 'Arimo', sans-serif;
+}
+.services .main .common .text i{
+	margin-top: 6px;
+	margin-left: 5px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.services .main .common .text P{
+	text-transform: capitalize;
+	transition: 0.4s;
+	cursor: pointer;
+}
+.services .main .common:hover .text i{
+	color: #fbaa33 !important;
+}
+.services .main .common:hover .text p{
+	color: #fbaa33 !important;
+}
+/*======================================
+		Services Section End
+======================================*/
+/*======================================
+		About US Section Start
+======================================*/
+.aboutus{
+	margin-bottom: 100px;
+}
+.aboutus .main .left{
+	width: 46%;
+	margin-right: 30px;
+}
+.aboutus .main .left .img img{
+	width: 100%;
+	height: 100%;
+}
+.aboutus .main .left .line{
+	background: #fbaa33;
+	height: 3px;
+	width: 70%;
+	border-radius: 2px;
+	position: relative;
+}
+.aboutus .main .left .line::after{
+	content: "";
+	height: 3px;
+	width: 2%;
+	background: #fbaa33;
+	border-radius: 2px;
+	position: absolute;
+	right: -10px;
+	top: 0;
+}
+.aboutus .main .left .line2{
+	background: #2d3e50;
+	margin-left: auto;
+}
+.aboutus .main .left .line2::after{
+	left: -10px;
+	background: #2d3e50;
+}
+.aboutus .main .left .imgplugin{
+	margin: 7px 0;
+	position: relative;
+}
+.aboutus .main .left ul{
+	display: flex;
+	position: absolute;
+	bottom: 20px;
+	left: 46%;
+}
+.aboutus .main .left ul li{
+	margin-right: 10px;
+}
+.aboutus .main .left ul li button{
+	font-size: 0;
+	outline: none;
+	height: 13px;
+	width: 13px;
+	border: 1px solid #666666;
+	border-radius: 50%;
+	background-color: transparent;
+}
+.aboutus .main .left ul .slick-active button{
+	background-color: #fbaa33;
+	border-color: #fbaa33;
+}
+.aboutus .main .right{
+	width: 48%;
+	margin-top: 40px;
+}
+.aboutus .main .right p{
+	font-size: 14px;
+	color: #444444;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+}
+.aboutus .main .right .pee{
+	margin: 20px 0 50px 0 !important;
+}
+/*======================================
+		About US Section End
+======================================*/
+/*======================================
+		Counter Section Start
+======================================*/
+.counter_part{
+	background: url(../images/counter.png) no-repeat center;
+	background-size: cover;
+	margin-bottom: 100px;
+	text-align: center;
+	padding: 50px 0;
+}
+.counter_part .common{
+	width: 24%;
+}
+.counter_part .line{
+	background: #fbaa33;
+	height: 3px;
+	width: 20%;
+	border-radius: 2px;
+	position: relative;
+	margin-left: 37%;
+	margin-top: 20px;
+}
+.counter_part .line::after{
+	content: "";
+	height: 3px;
+	width: 15%;
+	background: #fbaa33;
+	border-radius: 2px;
+	position: absolute;
+	right: -15px;
+	top: 0;
+}
+.counter_part .main{
+	justify-content: space-between;
+}
+.counter_part h1{
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: 'Arimo', sans-serif;
+}
+.counter_part h4{
+	font-weight: 400;
+	font-size: 24px;
+	color: #f1f1f1;
+	font-family: 'Arimo', sans-serif;
+}
+/*======================================
+		Counter Section End
+======================================*/
+/*======================================
+		Course Section Start
+======================================*/
+.course{
+	margin-bottom: 100px;
+}
+.course .container{
+	padding-right: 0 !important;
+}
+.course .common{
+	width: 33%;
+	background: #f5f5f5;
+	padding: 21px 21px 80px 21px;
+	margin-right: 32px;
+	border: 1px solid transparent;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	margin-bottom: 40px;
+	transition: 0.4s;
+}
+.course .common:hover{
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.11);
+	border-color: #dddddd;
+}
+.course .common:hover h4{
+	color: #fbaa33;
+}
+.course .common .img img{
+	width: 100%;
+}
+.course .common .img{
+	position: relative;
+}
+.course .common .img .overlay{
+	background: rgba(0, 0, 0,0.6);
+	position: relative;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.4s;
+}
+.course .common:hover .img .overlay{
+	opacity: 1;
+}
+.course .common .img .overlay .icon{
+	width: 50px;
+	height: 50px;
+	background: #fbaa33;
+	border-radius: 50%;
+	line-height: 50px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	cursor: pointer;
+}
+.course .common .img .overlay i{
+	font-size: 22px;
+	color: #f1f1f1;
+	transform: rotate(88deg);
+	font-weight: bold;
+}
+.course .common .ratings{
+	margin-top: 20px;
+}
+.course .common .ratings .text p{
+	color: #444444;
+	font-size: 13px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	margin-top: 10px;
+}
+.course .common .ratings .text h5{
+	color: #444444;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: 'Arimo', sans-serif;
+}
+.course .common .ratings .text{
+	margin-left: 8px;
+}
+.course .common .ratings .rate p{
+	color: #999999;
+	font-size: 13px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	margin-left: 10px;
+}
+.course .common .ratings .rate .icon i{
+	font-size: 14px;
+	color: #fbaa33;
+	padding-top: 5px;
+}
+.course .common .ratings .rate{
+	margin-left: auto;
+}
+.course .common h4{
+	color: #222222;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Arimo', sans-serif;
+	margin-top: 20px;
+	transition: 0.6s;
+}
+.course .common .pee{
+	font-size: 13px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 35px;
+	line-height: 26px;
+}
+.course .common .amount{
+	margin-top: 15px;
+}
+.course .common .amount .item p{
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	color: #999999;
+}
+.course .common .amount .item .p{
+	color: #444444;
+	font-weight: 700;
+	font-family: 'Arimo', sans-serif;
+	font-size: 13px;
+	padding-top: 10px;
+}
+.course .common .amount .second{
+	margin: 0 38px;
+}
+.course .common a{
+	display: inline-block;
+	padding: 16px 18px;
+	background: #2d3e50;
+	border-radius: 3px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	position: absolute;
+	bottom: -25px;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: 0.6s;
+	outline: none;
+}
+.course .common:hover a{
+	background: #fbaa33;
+	border-color: #fbaa33;
+}
+.course .slick-arrow{
+	width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #2d3e50;
+    text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+    color: #2d3e50;
+    position: absolute;
+	top: 52%;
+    transform: translateY(-50%);
+    z-index: 1;
+    border-radius: 50%;
+	cursor: pointer;
+	background: transparent;
+	transition: 0.4s;
+}
+.course .prev {
+	left: -8%;
+}
+.course .next {
+	right: -8%;
+}
+.course .slick-arrow:hover{
+	background: #fbaa33;
+	border-color: #fbaa33;
+	color: #ffffff;
+}
+/*======================================
+		Course Section End
+======================================*/
+/*======================================
+		Event Section Start
+======================================*/
+#event-part{
+    margin-bottom: 100px;
+}
+#event-part .container{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+#event-part .flex {
+    justify-content: space-around;
+}
+#event-part .left {
+	width: 47%;
+	transition: 0.6s;
+}
+#event-part .left:hover{
+	box-shadow: 0 7px 50px rgba(0, 0, 0, 0.15);
+}
+#event-part .left .image{
+	height: 100%;
+	width: 100%;
+}
+#event-part .left .image img{
+	height: 100%;
+	width: 100%;
+}
+#event-part .rightt {
+    width: 48%;
+}
+#event-part .rightt .meetup {
+    display: flex;
+    background: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+	transition: .6s;
+	border: 1px solid transparent;
+}
+#event-part .rightt .meetup:hover{
+	box-shadow: 0 7px 50px rgba(0, 0, 0, 0.15);
+	border-color: #dddddd;
+}
+#event-part .rightt .x {
+    margin-top: 30px;
+}
+#event-part .rightt .meetup .in {
+    width: 38%;
+	position: relative;
+}
+#event-part .rightt .meetup .in img {
+    width: 100%;
+}
+#event-part .rightt .meetup .out {
+    width: 60%;
+    padding-left: 37px;
+}
+#event-part .rightt .meetup .out .h2 {
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 600;
+    color: #2d3e50;
+    transition: .6s;
+}
+#event-part .rightt .meetup .out .h9 {
+    width: 230px;
+}
+#event-part .rightt .meetup .out .pp {
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #2d3e50;
+    margin-top: 12px;
+    margin-bottom: 15px !important;
+}
+#event-part .rightt .meetup .out .ppp {
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #777777;
+    transition: .6s;
+}
+#event-part .rightt .meetup .out .ppp .sp {
+    margin-left: 20px;
+}
+#event-part .rightt .meetup .out .ppp i {
+    color: #2d3e50;
+	font-size: 16px;
+	transition: .6s;
+}
+#event-part .rightt .meetup .out a {
+    display: inline-block;
+    background: #2d3e50;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    border-radius: 4px;
+    margin-top: 12px;
+    transition: .6s;
+}
+#event-part .rightt .meetup:hover .out .ppp i{
+    color: #fbaa33;
+}
+#event-part .rightt .meetup:hover a {
+    background: #fbaa33;
+}
+#event-part .rightt .meetup:hover .h2 {
+    color: #fbaa33;
+}
+#event-part .rightt .meetup .overlay{
+	position: absolute;
+	bottom: 2px;
+	right: 0;
+	background: #ff0000;
+	color: #f1f1f1;
+	padding: 8px 15px;
+	transition: 0.4s;
+}
+#event-part .rightt .x .overlay{
+	background: #008000;
+	bottom: 3px;
+	transition: 0.4s;
+}
+#event-part .rightt .meetup .overlay h2{
+	color: #f1f1f1;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	margin-bottom: 0 !important;
+}
+/*======================================
+		Event Section End
+======================================*/
+/*======================================
+		Testimonial Section Start
+======================================*/
+.testimonial{
+	margin-bottom: 100px;
+	background: #f5f5f5;
+	padding: 100px 0 150px 0;
+}
+.testimonial .container{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+	position: relative;
+}
+.testimonial .slick-initialized .slick-slide{
+    display: flex;
+}
+.testimonial .tesi_plug{
+	width: 67%;
+}
+.testimonial .left{
+	width: 47%;
+	margin-right: 30px;
+}
+.testimonial .left img{
+	width: 100%;
+	clip-path: polygon(17% 0, 100% 0%, 83% 100%, 0% 100%);
+	margin: 7px 0;
+}
+.testimonial .left .line{
+	background: #fbaa33;
+	height: 3px;
+	width: 70%;
+	border-radius: 2px;
+	position: relative;
+}
+.testimonial .left .line::after{
+	content: "";
+	height: 3px;
+	width: 2%;
+	background: #fbaa33;
+	border-radius: 2px;
+	position: absolute;
+	right: -10px;
+	top: 0;
+}
+.testimonial .left .line2{
+	background: #2d3e50;
+	margin-left: auto;
+}
+.testimonial .left .line2::after{
+	left: -10px;
+	background: #2d3e50;
+}
+.testimonial .right{
+	width: 50%;
+	margin-top: 6%;
+}
+.testimonial .right p{
+	font-size: 14px;
+	color: #444444;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	margin-bottom: 20px !important;
+}
+.testimonial .right h2{
+	font-family: 'Arimo';
+	font-weight: 700;
+	font-size: 20px;
+	color: #444444;
+}
+.testimonial .right span{
+	font-family: 'Arimo';
+	font-weight: 400;
+	font-size: 16px;
+	color: #444444;
+}
+.testimonial .right i{
+	color: #fbaa33;
+	font-size: 14px;
+	font-weight: 900;
+}
+.testimonial .accordian_plug{
+	width: 31%;
+	margin-left: 30px;
+	position: absolute;
+	right: 0;
+	top: 3%;
+}
+.testimonial .btn-link{
+	font-family: 'Arimo';
+	font-weight: 400;
+	font-size: 20px;
+	color: #444444;
+	background: #ffffff;
+	width: 100%;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.testimonial .btn-link:hover {
+    text-decoration: none;
+}
+.testimonial .btn-link:focus {
+    text-decoration: none;
+}
+.testimonial button{
+    text-decoration: none;
+	background: #fbaa33 !important;
+}
+.testimonial .card{
+	border: none !important;
+	transition: 0.4s;
+	margin-bottom: 10px !important;
+	box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+}
+.testimonial .collapsed{
+	background: #ffffff !important;
+}
+.testimonial .show{
+	overflow: hidden;
+	transition: 0.4s;
+}
+.testimonial .card-header{
+	padding: 0 !important;
+	border: none !important;
+}
+.testimonial .btn:focus {
+    box-shadow: none !important;
+}
+.testimonial .btn{
+	border: none !important;
+}
+.testimonial .btn-link i{
+	float: right;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	font-size: 18px !important;
+	margin-top: 10px;
+	font-weight: bold;
+	transform: rotateX(180deg);
+	transition: 0.4s;
+}
+.testimonial .collapsed i {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	font-size: 18px !important;
+	transform: rotate(0deg);
+	transition: 0.4s;
+}
+.testimonial .slick-arrow{
+	position: absolute;
+	left: -11%;
+	z-index: 1;
+	font-size: 30px;
+	color: #ffffff;
+	background: #2d3e50;
+	font-weight: bolder;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	border: 1px solid #2d3e50;
+	cursor: pointer;
+	transition: 0.4s;
+	outline: none;
+}
+.testimonial .slick-arrow:hover{
+	background: #fbaa33;
+	border-color: #fbaa33;
+}
+.testimonial .prev{
+	top: 31%;
+}
+.testimonial .next{
+	top: 54%;
+}
+/*======================================
+		Testimonial Section End
+======================================*/
+/*====================================
+       Teacher Section Start
+====================================*/
+#teacher-part{
+	margin-bottom: 150px;
+}
+#teacher-part .flex {
+    justify-content: space-between;
+}
+#teacher-part .item {
+    width: 23%;
+    position: relative;
+}
+#teacher-part .item .image img {
+    width: 100%;
+    height: 276px;
+}
+#teacher-part .item .text {
+	text-align: center;
+	margin-top: -20px;
+	transition: 0.4s;
+	position: absolute;
+	left: 25%;
+	bottom: -10%;
+}
+#teacher-part .item:hover .text{
+	bottom: -16%;
+}
+#teacher-part .item .text h4 {
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #444444;
+}
+#teacher-part .item .text p {
+    color: #444444;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 80px;
+    position: relative;
+}
+#teacher-part .item .text p::after {
+    content: "";
+    position: absolute;
+    left: 28%;
+    bottom: -19px;
+    width: 50px;
+    height: 3px;
+    background: #fbaa33;
+}
+#teacher-part .item .text p::before {
+    content: "";
+    position: absolute;
+    right: 23%;
+    bottom: -19px;
+    width: 11px;
+    height: 3px;
+    background: #fbaa33;
+}
+#teacher-part .item .icon {
+	transform: translateY(-50%);
+    opacity: 0;
+	transition: .6s;
+	margin-left: 13%;
+	cursor: pointer;
+}
+#teacher-part .item .icon i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #2d3e50;
+    text-align: center;
+    margin-left: 15px;
+    color: #fff;
+    transition: .4s;
+}
+#teacher-part .item:hover .icon {
+    opacity: 1;
+}
+#teacher-part .item i:hover {
+    background: #fbaa33;
+}
+/*====================================
+       Teacher Section End
+====================================*/
+/*======================================
+		Title Blog Section Start
+======================================*/
+.blog1{
+	background: url(../images/blog.png) no-repeat center;
+	background-size: cover;
+	padding: 15px 0 180px 0;
+}
+.blog1 .title{
+	text-align: center;
+	margin-bottom: 0 !important;
+}
+.blog1 .title h1{
+	color: #ffffff !important;
+	margin-bottom: 20px !important;
+	font-size: 32px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.blog1 .title p{
+	color: #ffffff !important;
+	font-size: 14px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	width: 46%;
+	margin: 0 auto;
+}
+/*======================================
+		Title Blog Section End
+======================================*/
+/*======================================
+		Middle Blog Section Start
+======================================*/
+.blog2 {
+	transform: translateY(-18%);
+	margin-bottom: -20px;
+}
+.blog2 .common{
+	width: 48.6%;
+}
+.blog2 .main{
+	justify-content: space-between;
+}
+.blog2 .common .img .overlay{
+	position: relative;
+}
+.blog2 .common .img .overlay .text{
+	position: absolute;
+	bottom: 58px;
+	left: 33px;
+	margin: 0 !important;
+}
+.blog2 .common .img .overlay h4{
+	font-size: 20px !important;
+	color: #ffffff;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-bottom: 10px !important;
+}
+.blog2 .common .img .overlay .hover{
+	opacity: 0;
+	transition: 0.8s;
+}
+.blog2 .common:hover .img .overlay .hover{
+	opacity: 1;
+}
+.blog2 .common .icon{
+	margin: 40px 15px 0 0;
+}
+.blog2 .common .icon i{
+	display: block;
+	color: white;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2d3e50;
+	text-align: center;
+	line-height: 40px;
+	transition: 0.4s;
+	cursor: pointer;
+	margin-left: auto;
+	margin-bottom: 5px;
+}
+.blog2 .common .icon i:hover{
+	background: #fbaa33;
+}
+.blog2 .common .like{
+	margin-top: 33%;
+}
+.blog2 .common .like i{
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 13px;
+}
+.blog2 .common .like span{
+	color: #ffffff;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+.blog2 .common .like .date{
+	margin-left: 34px;
+}
+.blog2 .common .like .views{
+	margin: 0 25px 0 73px;
+}
+/*======================================
+		Middle Blog Section End
+======================================*/
+/*======================================
+		Last Blog Section Start
+======================================*/
+.blog3{
+	margin-top: 28px;
+}
+.blog3 .main{
+	justify-content: space-between;
+}
+.blog3 .common{
+	width: 23%;
+}
+.blog .common .img img{
+	width: 100%;
+}
+.blog .common .img{
+	position: relative;
+}
+.blog .common .img .overlay{
+	position: absolute;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.89) 6%, rgba(0, 0, 0, 0.89) 13%, rgba(0, 0, 0, 0.69) 21%, rgba(125, 185, 232, 0.15) 43%, rgba(125, 185, 232, 0) 49%);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.blog .common .img .overlay .text{
+	margin: 15px;
+	margin-top: 81%;
+}
+.blog3 .common .img .overlay h4{
+	color: #ffffff;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-bottom: 0 !important;
+}
+.blog .common .img .overlay a{
+	color: #ffffff;
+	font-family: 'Arimo', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+}
+/*======================================
+		Last Blog Section End
+======================================*/
+/*======================================
+		Footer-Part Section Start
+======================================*/
+#footer-part {
+    background: #2d3e50;
+    padding-bottom: 50px;
+}
+#footer-part .container{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+#footer-part .one {
+    padding-top: 30px;
+    width: 29%;
+    margin-bottom: 20px;
+}
+#footer-part .one p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 30px;
+}
+#footer-part .one span {
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 30px;
+}
+#footer-part .one i {
+    margin-top: 30px;
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #2d3e50;
+	transition: .6s;
+	font-size: 23px;
+	cursor: pointer;
+}
+#footer-part .one i:hover{
+    background: #fbaa33;
+    color: #fff;
+}
+#footer-part .two {
+	width: 13%;
+	margin-left: 5%;
+}
+#footer-part .two h3 {
+     color: #ffffff;
+	margin-top: 48px;
+	font-weight: 700;
+	font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 47px;
+}
+#footer-part .two p {
+    font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	padding-bottom: 30px !important;
+    margin-left: 5px;
+     color: #ffffff;
+	 transition: 0.4s;
+	 cursor: pointer;
+}
+#footer-part .two p:hover{
+	color: #fbaa33;
+}
+#footer-part .three{
+	width: 15%;
+	margin-left: 5%;
+}
+#footer-part .three p {
+    font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	padding-bottom: 30px !important;
+    margin-left: 5px;
+	 color: #ffffff;
+	 transition: 0.4s;
+	 cursor: pointer;
+}
+#footer-part .three p:hover{
+	color: #fbaa33;
+}
+#footer-part .three .g{
+    margin-top: 119px;
+}
+#footer-part .four{
+	width: 33%;
+}
+#footer-part .four h4{
+     color: #ffffff;
+    margin-top: 47px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 47px;
+    font-weight: 700;
+}
+#footer-part .four .contact .location p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+#footer-part .four .contact .location{
+	margin-bottom: 35px;
+}
+#footer-part .four .contact .location1{
+	margin-bottom: 19px;
+}
+#footer-part .four .contact .location i{
+    font-size: 24px;
+	color: #2d3e50;
+	background: #ffffff;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+	transition: .6s;
+	margin-top: 5px;
+	cursor: pointer;
+	margin-right: 30px;
+}
+#footer-part .four .contact .location i:hover{
+    background: #fbaa33;
+    color: #fff;
+}
+#footer-part .four .contact .location p .enve{
+    font-size: 20px;
+}
+#footer-part .four .contact .location .phone i{
+    transform: rotate(-100deg);
+}
+#footer-part .four .contact .location .text .title{
+	color: #fbaa33;
+	font-family: 'Arimo';
+	font-weight: 400;
+	font-size: 14px;
+	padding-bottom: 10px;
+	text-align: left !important;
+	text-transform: uppercase;
+}
+#footer-part .four .contact .location .text .one1{
+	width: 83%;
+}
+/*======================================
+		Footer-Part Section End
+======================================*/
+/*======================================
+		Footer_Plugin Section Start
+======================================*/
+.footer_plugin .common{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.footer_plugin .common img{
+	height: 100%;
+	width: 100%;
+}
+.footer_plugin .common .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.footer_plugin .common .overlay p{
+	background: #ffffff;
+	padding: 10px 20px;
+	font-weight: 400;
+	font-size: 15px;
+	color: #2d3e50;
+	font-family: 'Arimo', sans-serif;
+	text-transform: capitalize;
+	margin: 0 auto;
+	width: 158px;
+	/* width: 59%; */
+	opacity: 0;
+	transition: 0.4s;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.footer_plugin .common:hover p{
+	opacity: 1;
+	cursor: pointer;
+}
+.footer_plugin .common p:hover{
+	background: #fbaa33;
+	color: #ffffff;
+}
+/*======================================
+		Footer_Plugin Section End
+======================================*/
+/*======================================
+		Copyright Section Start
+======================================*/
+.copyright{
+	background: #2d3e50;
+	text-align: center;
+	color: #fff;
+	padding: 10px 0;
+}
+.copyright span{
+	color: #fbaa33;
+}
+/*======================================
+		Copyright Section End
+======================================*/
